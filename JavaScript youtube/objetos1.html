@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        //o que são objetos?
+        // chave-valor (key-value pair)
+        let marcaCelular = 'LG'
+        let TamanhoVertical = 155
+        let tamanhoTelaHorixontal = 75
+        let capacidadeBateria = 5000
+
+        const celular = {
+        marcaCelular: 'ASUS',
+            tamanhoTela: {
+                vartical: 155,
+                horizontal:75
+            },
+        capacidadeBateria: 5000,
+        ligar(){
+            console.log('fazendo ligação...')
+        }
+        }
+
+        celular.capacidadeBateria = 10;
+        console.log(celular.capacidadeBateria);
+        celular.ligar()
+    </script>
+
+</head>
+<body>
+    
+</body>
+</html>
